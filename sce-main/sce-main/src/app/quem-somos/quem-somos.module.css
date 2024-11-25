@@ -1,0 +1,42 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  color: #0c9463;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.imageContainer {
+  width: 100%;
+  max-width: 800px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.textContainer {
+  max-width: 800px;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.textContainer strong {
+  color: #0c9463;
+}

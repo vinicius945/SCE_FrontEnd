@@ -1,0 +1,96 @@
+.container {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+.highlight {
+  color: #228b22;
+}
+
+.form {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input {
+  flex: 1;
+  gap: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: #228b22;
+}
+
+.select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.textarea {
+  margin-top: 15px;
+  width: 95%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  min-height: 100px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.checkboxContainer label {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.button {
+  background: #228b22;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background: #2ea62e;
+}

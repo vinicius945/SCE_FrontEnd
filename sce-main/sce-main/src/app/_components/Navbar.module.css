@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  font-family: "Roboto";
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-actions a {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}

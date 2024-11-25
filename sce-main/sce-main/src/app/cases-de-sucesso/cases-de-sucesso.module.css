@@ -1,0 +1,51 @@
+.content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.titulo {
+  font-size: 28px;
+}
+
+.planos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #228b22;
+  padding: 40px 20px;
+}
+
+.planos img {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.plano {
+  background-color: #fff;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  padding: 0 10px;
+}
+
+.plano:hover {
+  transform: scale(1.05);
+}
+
+.descricaoPlano h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.descricaoPlano p {
+  font-size: 14px;
+  padding: 10px 0;
+}
